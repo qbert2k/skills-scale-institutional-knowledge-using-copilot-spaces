@@ -1,0 +1,9 @@
+# OctoAcme Project Management Overview
+
+OctoAcme runs projects with a lightweight, iterative lifecycle: Initiation → Planning → Execution → Release → Retrospective. Initiation captures the problem, stakeholders, goals, and success metrics in a Project One-pager and confirms go/no-go. Planning breaks approved initiatives into shippable backlog items with clear acceptance criteria, estimates, a Definition of Done, and a release timeline. Execution uses a Git-centric workflow with a project board (Backlog → Ready → In Progress → In Review → QA → Done) and small, focused pull requests tied to issues.
+
+Roles and responsibilities are explicit: Project Manager (coordinates delivery, risks, schedules, and stakeholder communications), Product Manager (defines outcomes, prioritizes the backlog, and owns success metrics), Developers (build, test, and review), QA/Testing (validate acceptance and run manual tests when needed), and Stakeholders (provide inputs and approvals). A Risk Register and escalation paths (team → PM → Product Lead → Sponsor) ensure visibility and timely escalation of blockers or business-impacting issues.
+
+Communication emphasizes regular rhythms and a single source of truth: daily standups, weekly delivery syncs, PM–PdM weekly alignment, sprint demos, and monthly stakeholder updates. Status and risk updates are kept in the project README/One-pager and weekly status templates, and action items from retrospectives are tracked in the backlog with owners and due dates.
+
+Quality assurance is enforced through CI gates and testing standards: unit and integration tests, end-to-end smoke tests for critical flows, security scanning in CI, and manual QA where needed. Pull request conventions (small PRs, linked issue and acceptance criteria, CI pass before review) plus pre-release checklists, rollback playbooks, and release notes templates help keep releases observable, reversible, and well-communicated.
